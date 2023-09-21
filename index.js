@@ -28,6 +28,6 @@ function media(){
     let query = window.matchMedia("(max-width:375px)");
     if(query.matches){
     let imageElement = document.getElementById("image");
-    imageElement.src='/newsletter-sign-up-with-success-message-main/newsletter-sign-up-with-success-message-main/assets/images/illustration-sign-up-mobile.svg';
+    imageElement.src='main/assets/images/illustration-sign-up-mobile.svg';
     }
 }
